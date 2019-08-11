@@ -1,0 +1,102 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  height: 100%vh;
+}
+
+.container {
+  width: 100%;
+  height: 30vh;
+}
+
+.information {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  margin-top: 20px;
+}
+
+.information img {
+  border: solid #cccccc 1px;
+  width: 100px;
+}
+
+.information div {
+  text-align: center;
+  width: 25%;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.information div[hidden] {
+  display: none;
+}
+
+.information .place {
+  font-size: 30px;
+}
+
+.information .temp {
+  font-size: 58px;
+}
+
+.information .icon i {
+  font-size: 44px;
+  color: black;
+  margin-top: 20px;
+}
+
+.information .message {
+  width: 100%;
+  font-size: 40px;
+  color: #cccccc;
+  padding-top: 15px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .information {
+    height: 8vh;
+  }
+
+  .information .message {
+    font-size: 18px;
+    margin-top: -15px;
+  }
+
+  .information {
+    padding: 5px;
+  }
+
+  .information img {
+    width: 50px;
+  }
+
+  .information .place {
+    font-size: 16px;
+  }
+
+  .information .temp {
+    font-size: 30px;
+  }
+
+  .information .icon i {
+    display: none;
+  }
+
+  .information div {
+    width: 33.333%;
+  }
+}
