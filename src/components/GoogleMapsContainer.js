@@ -90,7 +90,7 @@ const mapStateToProps = (state) => {
 };
 
 const component = GoogleApiWrapper({
-    apiKey: ('AIzaSyDb84ojVS_52UKUShwU0hJVpeHjOboRT4Y')
+    apiKey: (YOUR_API_KEY)
 })(GoogleMapsContainer);
 
 export default connect(mapStateToProps, { selectLocation, updateMarker })(component);
